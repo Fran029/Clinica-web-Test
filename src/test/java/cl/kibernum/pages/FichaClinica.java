@@ -1,0 +1,76 @@
+package cl.kibernum.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class FichaClinica {
+    private WebDriver driver;
+
+    private By nameField = By.id("nombre");
+    private By diagnosisField = By.id("diagnostico");
+    private By ageField= By.id("edad");
+    private By treatmentField = By.id("tratamiento");
+    private By buttonSave = By.xpath("//*[@id='record-form']/button");
+    private By successMessage = By.xpath("//*[@id='record-message']/div");
+
+    public FichaClinica(WebDriver driver) {
+        this.driver = driver;
+    }
+
+    public void navigateTo() {
+        driver.get("http://127.0.0.1:5500/ficha.html");
+    }
+
+    public void enterName(String name) {
+        driver.findElement(nameField).clear();
+        driver.findElement(nameField).sendKeys(name);
+    }
+
+    public void enterDiagnosis(String diagnosis) {
+        driver.findElement(diagnosisField).clear();
+        driver.findElement(diagnosisField).sendKeys(diagnosis);
+    }
+
+    public void enterAge(int age) {
+        driver.findElement(ageField).clear();
+        driver.findElement(ageField).sendKeys(String.valueOf(age));
+    }
+
+    public void enterTreatment(String treatment) {
+        driver.findElement(treatmentField).clear();
+        driver.findElement(treatmentField).sendKeys(treatment);
+    }
+
+    public void clickButtonSave() {
+        driver.findElement(buttonSave).click();
+    }
+
+    public String getSuccessMessage() {
+        return driver.findElement(successMessage).getText();
+    }
+
+    public String getName() {
+    return driver.findElement(nameField).getText();
+}
+
+public String getDiagnosis() {
+    return driver.findElement(diagnosisField).getText();
+}
+
+public int getAge() {
+    String value = driver.findElement(ageField).getText();
+    return Integer.parseInt(value);
+}
+
+public String getTreatment() {
+    return driver.findElement(treatmentField).getText();
+}
+
+    public void file(String name, String diagnosis,int age,String treatment) {
+        enterName(name);
+        enterDiagnosis(diagnosis);
+        enterAge(age);
+        enterTreatment(treatment);
+        clickButtonSave();
+    }
+}
