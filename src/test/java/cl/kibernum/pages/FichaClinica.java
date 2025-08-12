@@ -81,7 +81,7 @@ public class FichaClinica {
         return driver.findElement(treatmentField).getText();
     }
 
-    public void file(String name, String diagnosis, int age, String treatment) {
+    public void enterMedicalFile(String name, String diagnosis, int age, String treatment) {
         enterName(name);
         enterDiagnosis(diagnosis);
         enterAge(age);

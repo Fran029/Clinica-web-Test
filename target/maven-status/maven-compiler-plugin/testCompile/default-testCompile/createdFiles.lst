@@ -1,5 +1,1 @@
-cl\kibernum\pages\TablaDatos.class
-cl\kibernum\steps\TablaDatosSteps.class
-cl\kibernum\steps\TransferenciaSteps.class
-cl\kibernum\pages\Transferencia.class
 cl\kibernum\RunCucumberTest.class

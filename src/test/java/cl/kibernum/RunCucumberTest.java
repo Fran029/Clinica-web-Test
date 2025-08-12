@@ -9,7 +9,7 @@ import static io.cucumber.junit.platform.engine.Constants.*;
 @Suite
 @IncludeEngines("cucumber")
 @SelectClasspathResource("features")
-@ConfigurationParameter(key=GLUE_PROPERTY_NAME, value="cl.kibernum.steps, cl.kibernum.pages")
+@ConfigurationParameter(key=GLUE_PROPERTY_NAME, value="cl.kibernum.steps,  cl.kibernum.hooks")
 @ConfigurationParameter(key=PLUGIN_PROPERTY_NAME, value="pretty, html:target/cucumber-report.html")
 public class RunCucumberTest {
     

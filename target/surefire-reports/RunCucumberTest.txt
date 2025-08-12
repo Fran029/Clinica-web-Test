@@ -1,4 +1,112 @@
 -------------------------------------------------------------------------------
 Test set: RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.3 s - in RunCucumberTest
+Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 39.141 s <<< FAILURE! - in RunCucumberTest
+Example #1.1  Time elapsed: 2.717 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "cl.kibernum.pages.FichaClinica.navigateTo()" because "this.fichaClinica" is null
+
+Example #1.2  Time elapsed: 1.601 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "cl.kibernum.pages.FichaClinica.navigateTo()" because "this.fichaClinica" is null
+
+Example #1.3  Time elapsed: 1.279 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "cl.kibernum.pages.FichaClinica.navigateTo()" because "this.fichaClinica" is null
+
+Example #1.4  Time elapsed: 1.573 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "cl.kibernum.pages.FichaClinica.navigateTo()" because "this.fichaClinica" is null
+
+Example #1.5  Time elapsed: 1.788 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "cl.kibernum.pages.FichaClinica.navigateTo()" because "this.fichaClinica" is null
+
+Example #1.6  Time elapsed: 1.667 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "cl.kibernum.pages.FichaClinica.navigateTo()" because "this.fichaClinica" is null
+
+Example #1.7  Time elapsed: 2.029 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "cl.kibernum.pages.FichaClinica.navigateTo()" because "this.fichaClinica" is null
+
+Example #1.8  Time elapsed: 2.683 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "cl.kibernum.pages.FichaClinica.navigateTo()" because "this.fichaClinica" is null
+
+Example #1.9  Time elapsed: 3.847 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "cl.kibernum.pages.FichaClinica.navigateTo()" because "this.fichaClinica" is null
+
+Example #1.10  Time elapsed: 4.146 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "cl.kibernum.pages.FichaClinica.navigateTo()" because "this.fichaClinica" is null
+
+Example #1.1  Time elapsed: 5.121 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'que el usuario accede a la página de login' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("que el usuario accede a la página de login")
+public void que_el_usuario_accede_a_la_página_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("ingresa el usuario doctor y la clave <password>")
+public void ingresa_el_usuario_doctor_y_la_clave_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("debería ver el mensaje {string}")
+public void debería_ver_el_mensaje(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Example #1.2  Time elapsed: 4.151 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'que el usuario accede a la página de login' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("que el usuario accede a la página de login")
+public void que_el_usuario_accede_a_la_página_de_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("ingresa el usuario medico y la clave <password>")
+public void ingresa_el_usuario_medico_y_la_clave_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("debería ver el mensaje {string}")
+public void debería_ver_el_mensaje(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Validación de edad del paciente  Time elapsed: 3.197 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'el paciente es menor de 12 años' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("el paciente es menor de {int} años")
+public void el_paciente_es_menor_de_años(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("debe ser paciente {string}")
+public void debe_ser_paciente(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Validación ficha clínica  Time elapsed: 2.606 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'no se completa el tratamiento' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("no se completa el tratamiento")
+public void no_se_completa_el_tratamiento() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("no se puede guardar la ficha clínica")
+public void no_se_puede_guardar_la_ficha_clínica() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
