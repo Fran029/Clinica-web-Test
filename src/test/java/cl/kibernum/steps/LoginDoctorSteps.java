@@ -15,19 +15,7 @@ public class LoginDoctorSteps {
     private WebDriver driver;
     private LoginDoctor loginDoctor;
 
-    @Before
-    public void setUp() {
-        ChromeOptions chromeOptions = new ChromeOptions();
-        driver = new ChromeDriver(chromeOptions);
-        loginDoctor = new LoginDoctor(driver);
-    }
-
-    @After
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
-    }
+   
 
     @Given("ue el usuario accede a la página de login")
     public void que_el_usuario_accede_a_la_página_de_login() {

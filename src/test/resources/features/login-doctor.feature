@@ -1,3 +1,4 @@
+@login
 Feature: Login de doctor
     Scenario Outline: Validación de login de doctor 
         Given que el usuario accede a la página de login 

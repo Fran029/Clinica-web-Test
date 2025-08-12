@@ -13,7 +13,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 
-public class TransferenciaSteps {
+public class FichaClinicaSteps {
     private WebDriver driver;
     private FichaClinica transferencia;
 
@@ -35,11 +35,11 @@ public class TransferenciaSteps {
     public void que_el_usuario_ha_iniciado_sesion() {
         transferencia.navigateTo();
     }
-     
+    
     //@When("^transfiere (-?\\d+(\\.\\d+)?) a la cuenta (\\d{9})$")
     @When("^transfiere (-?\\d+) a la cuenta (\\d{9})$")
     public void transfiere_monto_a_la_cuenta(int monto, String cuenta) {
-       transferencia.transfer(monto, cuenta);
+    transferencia.transfer(monto, cuenta);
     }
 
     @Then("debería ver el mensaje {string}")

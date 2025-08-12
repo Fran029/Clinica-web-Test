@@ -1,0 +1,22 @@
+@ficha
+Feature: Validación de ficha médica 
+    Scenario: Completar datos del paciente en ficha clínica 
+        Given que el usuario está en el formulario de ficha clínica 
+        When ingresa el <nombre> del paciente
+            And ingresa el diágnostico <diagnóstico>
+            And ingresa la edad <edad>
+            And ingresa el tratamiento <tratamiento>
+        Then recibe el mensaje <mensaje>
+
+        Examples:  
+        | paciente |   diagnóstico   | edad |   tratamiento    |     mensaje                                                                                  | 
+        | Andrea J |   rosácea       | 50   |   Crema tópica   |     Ficha registrada con éxito.                                                              |
+        | Sofía E  |   T.E.A.        | 10   |   Terapia psico  |     Para menores de 12 años, el diagnóstico debe ser "Pediátrico".                           |
+        | Víctor M |    Pediátrico   | 11   |   Terapia kine   |     Ficha registrada con éxito.                                                              |        
+        | Francisca|    Gripe        | 12   |   Nastizol       |     Ficha registrada con éxito.                                                              | 
+        | Juana S  |                 | 39   |   Ejercicios     |     Todos los campos son obligatorios.                                                       |    
+        |          |    lumbago      | 21   |   Ejercicios     |     Todos los campos son obligatorios.                                                       |        
+        | Luisa M  |  hipertensión   |      | Antihipertensivos|     Todos los campos son obligatorios.                                                       |                 
+        | Juan B   |       otitis    | 45   |                  |     Todos los campos son obligatorios. El tratamiento es obligatorio para guardar la ficha.  |            
+        | Miguel   |       otitis    | 10   |                  |     Todos los campos son obligatorios. Para menores de 12 años, el diagnóstico debe ser "Pediátrico". El tratamiento es obligatorio para guardar la ficha.  |  
+        |          |                 |      |                  |     Todos los campos son obligatorios.                                                       |              
