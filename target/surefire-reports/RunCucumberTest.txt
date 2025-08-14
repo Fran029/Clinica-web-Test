@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 4, Errors: 2, Skipped: 3, Time elapsed: 42.893 s <<< FAILURE! - in RunCucumberTest
+Example #1.5  Time elapsed: 4.371 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+No se encontraron todos los mensajes esperados.
+Esperados: [Todos los campos son obligatorios.]
+Actuales: [Ficha registrada con éxito.] ==> expected: <true> but was: <false>
+
+Example #1.6  Time elapsed: 2.951 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+No se encontraron todos los mensajes esperados.
+Esperados: [Todos los campos son obligatorios.]
+Actuales: [Ficha registrada con éxito.] ==> expected: <true> but was: <false>
+
+Example #1.7  Time elapsed: 2.413 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'completa la ficha con Luisa M, hipertensión, "" y Antihipertensivos' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("completa la ficha con Luisa M, hipertensión, {string} y Antihipertensivos")
+public void completa_la_ficha_con_luisa_m_hipertensión_y_antihipertensivos(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Example #1.8  Time elapsed: 14.38 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+No se encontraron todos los mensajes esperados.
+Esperados: [Todos los campos son obligatorios., El tratamiento es obligatorio para guardar la ficha.]
+Actuales: [] ==> expected: <true> but was: <false>
+
+Example #1.9  Time elapsed: 2.7 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+No se encontraron todos los mensajes esperados.
+Esperados: [Todos los campos son obligatorios., Para menores de 12 años, el diagnóstico debe ser "Pediátrico"., El tratamiento es obligatorio para guardar la ficha.]
+Actuales: [Para menores de 12 años, el diagnóstico debe ser "Pediátrico".] ==> expected: <true> but was: <false>
+
+Example #1.10  Time elapsed: 2.149 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'completa la ficha con "", "", "" y ""' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("completa la ficha con {string}, {string}, {string} y {string}")
+public void completa_la_ficha_con_y(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

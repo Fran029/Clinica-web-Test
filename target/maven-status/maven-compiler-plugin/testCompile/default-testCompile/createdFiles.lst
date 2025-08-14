@@ -1,0 +1,8 @@
+cl\kibernum\pages\LoginDoctor.class
+cl\kibernum\hooks\Hooks.class
+cl\kibernum\steps\ReglasClinicasSteps.class
+cl\kibernum\steps\FichaClinicaSteps.class
+cl\kibernum\steps\LoginDoctorSteps.class
+cl\kibernum\hooks\DriverHolder.class
+cl\kibernum\pages\FichaClinica.class
+cl\kibernum\RunCucumberTest.class
