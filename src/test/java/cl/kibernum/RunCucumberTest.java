@@ -9,8 +9,9 @@ import static io.cucumber.junit.platform.engine.Constants.*;
 @Suite
 @IncludeEngines("cucumber")
 @SelectClasspathResource("features")
-@ConfigurationParameter(key=GLUE_PROPERTY_NAME, value="cl.kibernum.steps, cl.kibernum.pages")
+@ConfigurationParameter(key=GLUE_PROPERTY_NAME, value="cl.kibernum")
 @ConfigurationParameter(key=PLUGIN_PROPERTY_NAME, value="pretty, html:target/cucumber-report.html")
+@ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME, value = "@login and @ficha and @reglas") // filtrado por tags
 public class RunCucumberTest {
     
 }
