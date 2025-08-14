@@ -2,7 +2,7 @@
 Feature: Validación ficha clínica
     Scenario: Validación de edad del paciente 
         When el paciente es menor de 12 años
-        Then debe ser paciente "pediátrico"
+        Then debe ser paciente "Pediátrico"
 
     Scenario: Validación ficha clínica 
         When no se completa el tratamiento

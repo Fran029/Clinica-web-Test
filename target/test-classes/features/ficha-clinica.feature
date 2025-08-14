@@ -1,7 +1,7 @@
-@ficha
+@login @ficha @reglas
 Feature: Validación de ficha médica 
     Scenario Outline: Completar datos del paciente en ficha clínica 
-        Given que el usuario está en el formulario de ficha clínica 
+        Given que el usuario ingresa a ficha clínica accediendo con usuario "doctor" y clave "password"
         When completa la ficha con <paciente>, <diagnóstico>, <edad> y <tratamiento>
         Then recibe el mensaje <mensaje>
 

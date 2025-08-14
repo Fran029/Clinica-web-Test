@@ -3,35 +3,35 @@ package cl.kibernum.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import cl.kibernum.hooks.DriverHolder;
+
 public class LoginDoctor {
-    private WebDriver driver;
 
     private By usernameField = By.id("username");
     private By passwordField = By.id("password");
     private By entryClick = By.cssSelector("#login-form > button");
     private By validMessage = By.xpath("//header/div[@class='container']/h1[contains(text(), 'Ficha Clínica')]");
-    private By invalidMessage = By.xpath("//*[@id='login-message']/div[@role='alert']");
+    //private By invalidMessage = By.xpath("//*[@id='login-message']/div[@role='alert']");
 
-    public LoginDoctor(WebDriver driver) {
-        this.driver = driver;
+    private WebDriver getDriver() {
+        return DriverHolder.get();
     }
 
     public void navigateTo() {
-        driver.get("http://127.0.0.1:5500/ficha.html");
+        getDriver().get("https://clinica-modular.netlify.app/");
     }
 
     public void enterName(String username) {
-        driver.findElement(usernameField).sendKeys(username);
+        getDriver().findElement(usernameField).sendKeys(username);
     }
 
     public void enterPassword(String password) {
-        driver.findElement(passwordField).sendKeys(password);
+        getDriver().findElement(passwordField).sendKeys(password);
     }
 
     public void clickLoginButton() {
-        driver.findElement(entryClick).click();
+        getDriver().findElement(entryClick).click();
     }
-
 
     public void login(String name, String password) {
         enterName(name);
@@ -39,11 +39,11 @@ public class LoginDoctor {
         clickLoginButton();
     }
 
-    public String failedLoginMessage() {
-        return driver.findElement(invalidMessage).getText();
-    }
+    // public String failedLoginMessage() {
+    //     return getDriver().findElement(invalidMessage).getText();
+    // }
 
     public String validLoginMessage() {
-        return driver.findElement(validMessage).getText();
+        return getDriver().findElement(validMessage).getText();
     }
 }

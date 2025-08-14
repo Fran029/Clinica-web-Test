@@ -1,5 +1,6 @@
 package cl.kibernum.steps;
 import cl.kibernum.pages.FichaClinica;
+import cl.kibernum.pages.LoginDoctor;
 
 import java.util.List;
 
@@ -10,11 +11,13 @@ import io.cucumber.java.en.When;
 
 
 public class FichaClinicaSteps {
-    private FichaClinica fichaClinica;
+    private FichaClinica fichaClinica = new FichaClinica();
+    private LoginDoctor loginDoctor = new LoginDoctor();
 
-    @Given("que el usuario está en el formulario de ficha clínica")
-    public void que_el_usuario_está_en_el_formulario_de_ficha_clínica() {
-        fichaClinica.navigateTo();
+    @Given("que el usuario ingresa a ficha clínica accediendo con usuario {string} y clave {string}")
+    public void que_el_usuario_ingresa_a_ficha_clínica_accediendo_con_usuario_y_clave(String usuario, String clave) {
+        loginDoctor.navigateTo();
+        loginDoctor.login(usuario, clave);
     }
   
    @When("^completa la ficha con (.+), (.+), (\\d+) y (.+)$")
