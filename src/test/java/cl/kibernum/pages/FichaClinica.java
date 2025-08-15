@@ -13,7 +13,7 @@ import cl.kibernum.hooks.DriverHolder;
 import java.time.Duration;
 
 public class FichaClinica {
-    WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));
+    WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(5));
 
     private By nameField = By.id("nombre");
     private By diagnosisField = By.id("diagnostico");
@@ -21,7 +21,7 @@ public class FichaClinica {
     private By treatmentField = By.id("tratamiento");
     private By buttonSave = By.xpath("//*[@id='record-form']/button[@type='submit']");
     private By messageContainer = By.xpath("//*[@id='record-message']/div[@role='alert']");
-    private By messageList = By.xpath("//*[@id='record-message']/div[@role='alert']/ul/li");
+    private By message = By.xpath("//*[@id='record-message']/div[@role='alert']/ul");
 
     WebDriver getDriver() {
         return DriverHolder.get();
@@ -29,51 +29,52 @@ public class FichaClinica {
 
     public void enterName(String name) {
         getDriver().findElement(nameField).clear();
-        if (name != null && !name.isEmpty())
-            getDriver().findElement(nameField).sendKeys(name);
+        getDriver().findElement(nameField).sendKeys(name);
     }
 
     public void enterDiagnosis(String diagnosis) {
         getDriver().findElement(diagnosisField).clear();
-        if (diagnosis != null && !diagnosis.isEmpty())
-            getDriver().findElement(diagnosisField).sendKeys(diagnosis);
+        getDriver().findElement(diagnosisField).sendKeys(diagnosis);
     }
 
-    public void enterAge(Integer age) {
+    public void enterAge(String age) {
         getDriver().findElement(ageField).clear();
-        String stringAge = String.valueOf(age);
-        if (stringAge != null && !stringAge.isEmpty())
-            getDriver().findElement(ageField).sendKeys(stringAge);
+        //String stringAge = String.valueOf(age);
+        getDriver().findElement(ageField).sendKeys(age);
     }
 
     public void enterTreatment(String treatment) {
         getDriver().findElement(treatmentField).clear();
-        if (treatment != null && !treatment.isEmpty())
-            getDriver().findElement(treatmentField).sendKeys(treatment);
+        getDriver().findElement(treatmentField).sendKeys(treatment);
     }
 
     public void clickButtonSave() {
         wait.until(ExpectedConditions.elementToBeClickable(buttonSave)).click();
-        //wait.until(ExpectedConditions.presenceOfElementLocated(messageContainer));
+        // wait.until(ExpectedConditions.presenceOfElementLocated(messageContainer));
     }
 
-    public List<String> getMessages() {
-        //wait.until(ExpectedConditions.visibilityOfElementLocated(messageContainer));
-        List<WebElement> elements = getDriver().findElements(messageList);
+public List<String> getMessages() {
+    // Esperamos a que aparezca el contenedor de mensajes
+    wait.until(ExpectedConditions.visibilityOfElementLocated(messageContainer));
 
-            return elements.stream()
-                    .map(WebElement::getText)
-                    .filter(text -> !text.isBlank())
-                    .collect(Collectors.toList());
-        
+    // Buscamos <li> dentro del mensaje
+    List<WebElement> elements = getDriver().findElements(message);
+
+    if (elements.isEmpty()) {
+        // Si no hay <li>, devolvemos el mensaje único
+        WebElement singleMessage = getDriver().findElement(messageContainer);
+        String text = singleMessage.getText().trim();
+        return text.isBlank() ? List.of() : List.of(text);
     }
 
-    public String getSuccessMessage() {
-        WebElement message = wait.until(ExpectedConditions.visibilityOfElementLocated(messageContainer));
-        return message.getText().trim();
-    }
+    // Si hay <li>, devolvemos todos
+    return elements.stream()
+            .map(WebElement::getText)
+            .filter(text -> !text.isBlank())
+            .collect(Collectors.toList());
+}
 
-    public void enterMedicalFile(String name, String diagnosis, int age, String treatment) {
+    public void enterMedicalFile(String name, String diagnosis, String age, String treatment) {
         enterName(name);
         enterDiagnosis(diagnosis);
         enterAge(age);

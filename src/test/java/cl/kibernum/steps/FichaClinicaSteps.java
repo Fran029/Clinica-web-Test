@@ -3,13 +3,19 @@ package cl.kibernum.steps;
 import cl.kibernum.pages.FichaClinica;
 import cl.kibernum.pages.LoginDoctor;
 
-import java.util.ArrayList;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+//import java.util.ArrayList;
 
 //import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.List;
+//import java.util.concurrent.TimeoutException;
+import java.util.stream.Collectors;
 
-import org.junit.jupiter.api.Assertions;
+//import org.junit.jupiter.api.Assertions;
+
+//import org.junit.jupiter.api.Assertions;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
@@ -26,35 +32,23 @@ public class FichaClinicaSteps {
         loginDoctor.login(usuario, clave);
     }
 
-    @When("^completa la ficha con (.+), (.+), (\\d+) y (.+)$")
+    @When("^completa la ficha con (.*), (.*), (\\d*) y (.*)$")
     public void completa_la_ficha_con_paciente_diagnostico_edad_y_tratamiento(String paciente, String diagnostico,
-            Integer edad, String tratamiento) {
+            String edad, String tratamiento) {
         fichaClinica.enterMedicalFile(paciente, diagnostico, edad, tratamiento);
     }
 
- @Then("recibe los mensajes")
-public void recibe_los_mensajes(DataTable dataTable) {
-   // List<String> mensajesEsperados = dataTable.asList();
-    List<String> mensajesActuales;
+    @Then("recibe los mensajes")
+    public void recibe_los_mensajes(DataTable expectedMessages) {
+        List<String> expected = expectedMessages.asList()
+                .stream()
+                .filter(msg -> msg != null && !msg.isBlank())
+                .collect(Collectors.toList());
 
-    List<String> mensajesEsperados = new ArrayList<>(dataTable.asList());
+        List<String> actual = fichaClinica.getMessages();
 
-    // Limpiar valores nulos o "[empty]"
-    mensajesEsperados.removeIf(m -> m == null || m.isBlank() || "[empty]".equals(m.trim()));
-    if (mensajesEsperados.size() == 1) {
-        // Caso de mensaje único
-        mensajesActuales = List.of(fichaClinica.getSuccessMessage());
-    } else {
-        // Caso de múltiples mensajes
-        mensajesActuales = fichaClinica.getMessages();
+        assertTrue(actual.containsAll(expected),
+                "No se encontraron todos los mensajes esperados.\nEsperados: " + expected + "\nActuales: " + actual);
     }
-
-    Assertions.assertTrue(
-        mensajesActuales.containsAll(mensajesEsperados),
-        "No se encontraron todos los mensajes esperados.\nEsperados: " 
-        + mensajesEsperados + "\nActuales: " + mensajesActuales
-    );
-}
-
 
 }
