@@ -1,17 +1,19 @@
 package cl.kibernum.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import cl.kibernum.hooks.DriverHolder;
 
-public class LoginDoctor {
+public class LoginDoctorPage {
 
     private By usernameField = By.id("username");
     private By passwordField = By.id("password");
     private By entryClick = By.cssSelector("#login-form > button");
-    private By validMessage = By.xpath("//header/div[@class='container']/h1[contains(text(), 'Ficha Clínica')]");
-    //private By invalidMessage = By.xpath("//*[@id='login-message']/div[@role='alert']");
+    private By invalidMessage = By.xpath("//*[@id='login-message']/div[@role='alert']");
 
     private WebDriver getDriver() {
         return DriverHolder.get();
@@ -39,11 +41,8 @@ public class LoginDoctor {
         clickLoginButton();
     }
 
-    // public String failedLoginMessage() {
-    //     return getDriver().findElement(invalidMessage).getText();
-    // }
-
-    public String validLoginMessage() {
-        return getDriver().findElement(validMessage).getText();
+    public String failedLoginMessage() {
+        List<WebElement> messageErrors = getDriver().findElements(invalidMessage);
+        return messageErrors.isEmpty() ? "" : messageErrors.get(0).getText().trim();
     }
 }
