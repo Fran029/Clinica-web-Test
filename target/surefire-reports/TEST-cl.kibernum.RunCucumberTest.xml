@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cl.kibernum.RunCucumberTest" time="63.724" tests="14" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cl.kibernum.RunCucumberTest" time="53.474" tests="16" errors="4" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\andre\Desktop\AUTOMATIZACIÓN DE PRUEBAS\Módulo 5\Clinica-web-Test\target\test-classes;C:\Users\andre\Desktop\AUTOMATIZACIÓN DE PRUEBAS\Módulo 5\Clinica-web-Test\target\classes;C:\Users\andre\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\andre\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\andre\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\andre\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\andre\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\andre\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\andre\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\andre\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\andre\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\andre\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\andre\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\andre\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\andre\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\andre\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\andre\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\andre\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\andre\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\andre\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.15.0\cucumber-junit-platform-engine-7.15.0.jar;C:\Users\andre\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\andre\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\andre\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\andre\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\andre\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\andre\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\andre\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\andre\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\andre\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\andre\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\andre\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\andre\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\andre\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\andre\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\andre\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\andre\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\andre\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\andre\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\andre\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\andre\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\andre\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\andre\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\andre\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\andre\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\andre\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\andre\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\andre\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\andre\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\andre\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\andre\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\andre\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\andre\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\andre\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\andre\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\andre\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\andre\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\andre\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\andre\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\andre\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\andre\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\andre\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\andre\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\andre\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\andre\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\andre\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\andre\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\andre\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\andre\.m2\repository\org\slf4j\slf4j-simple\2.0.16\slf4j-simple-2.0.16.jar;"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\andre\AppData\Local\Temp\surefire1581147794539187724\surefirebooter-20250815201951904_3.jar C:\Users\andre\AppData\Local\Temp\surefire1581147794539187724 2025-08-15T20-19-51_675-jvmRun1 surefire-20250815201951904_1tmp surefire_0-20250815201951904_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\andre\AppData\Local\Temp\surefire7399575948673045300\surefirebooter-20250820011517276_3.jar C:\Users\andre\AppData\Local\Temp\surefire7399575948673045300 2025-08-20T01-15-16_969-jvmRun1 surefire-20250820011517276_1tmp surefire_0-20250820011517276_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\andre\Desktop\AUTOMATIZACIÓN DE PRUEBAS\Módulo 5\Clinica-web-Test\target\test-classes;C:\Users\andre\Desktop\AUTOMATIZACIÓN DE PRUEBAS\Módulo 5\Clinica-web-Test\target\classes;C:\Users\andre\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\andre\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\andre\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\andre\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\andre\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\andre\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\andre\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\andre\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\andre\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\andre\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\andre\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\andre\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\andre\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\andre\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\andre\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\andre\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\andre\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\andre\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.15.0\cucumber-junit-platform-engine-7.15.0.jar;C:\Users\andre\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\andre\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\andre\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\andre\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\andre\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\andre\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\andre\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\andre\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\andre\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\andre\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\andre\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\andre\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\andre\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\andre\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\andre\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\andre\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\andre\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\andre\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\andre\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\andre\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\andre\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\andre\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\andre\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\andre\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\andre\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\andre\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\andre\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\andre\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\andre\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\andre\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\andre\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\andre\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\andre\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\andre\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\andre\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\andre\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\andre\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\andre\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\andre\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\andre\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\andre\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\andre\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\andre\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\andre\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\andre\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\andre\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\andre\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\andre\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\andre\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\andre\.m2\repository\org\slf4j\slf4j-simple\2.0.16\slf4j-simple-2.0.16.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\andre\AppData\Local\Temp\surefire1581147794539187724\surefirebooter-20250815201951904_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\andre\AppData\Local\Temp\surefire7399575948673045300\surefirebooter-20250820011517276_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -59,9 +59,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Example #1.1" classname="Examples" time="9.187">
+  <testcase name="Example #1.1" classname="Examples" time="8.793">
     <system-out><![CDATA[
-@login @ficha @reglas
+@ficha
 Scenario Outline: Completar datos del paciente en ficha clínica                                   &amp#27;[90m# features/ficha-clinica.feature:14&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque el usuario ingresa a ficha clínica accediendo con usuario &amp#27;[0m&amp#27;[32m&amp#27;[1m"doctor"&amp#27;[0m&amp#27;[32m y clave &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.que_el_usuario_ingresa_a_ficha_clínica_accediendo_con_usuario_y_clave(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcompleta la ficha con &amp#27;[0m&amp#27;[32m&amp#27;[1mAndrea J&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1mrosácea&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m50&amp#27;[0m&amp#27;[32m y &amp#27;[0m&amp#27;[32m&amp#27;[1mCrema tópica&amp#27;[0m                                 &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.completa_la_ficha_con_paciente_diagnostico_edad_y_tratamiento(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
@@ -72,17 +72,73 @@ mensaje recibido: [Ficha registrada con éxito.]
     | [empty]                     |
     | [empty]                     |
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
-ago 15, 2025 8:19:55 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:15:21 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-ago 15, 2025 8:19:55 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ago 20, 2025 1:15:21 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.2" classname="Examples" time="2.701">
+  <testcase name="Example #1.1" classname="Examples" time="1.009">
+    <error message="The step &apos;que el doctor está en la página de la ficha clínica&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;que el doctor está en la página de la ficha clínica&quot;)&#10;public void que_el_doctor_está_en_la_página_de_la_ficha_clínica() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;completa el nombre del paciente {string}, el diagnóstico Pediátrico, la edad {int} y el tratamiento Inhalador&quot;)&#10;public void completa_el_nombre_del_paciente_el_diagnóstico_pediátrico_la_edad_y_el_tratamiento_inhalador(String string, Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;guarda la ficha&quot;)&#10;public void guarda_la_ficha() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;debe ver el mensaje de error Ficha registrada con éxito.&quot;)&#10;public void debe_ver_el_mensaje_de_error_ficha_registrada_con_éxito() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'que el doctor está en la página de la ficha clínica' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("que el doctor está en la página de la ficha clínica")
+public void que_el_doctor_está_en_la_página_de_la_ficha_clínica() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("completa el nombre del paciente {string}, el diagnóstico Pediátrico, la edad {int} y el tratamiento Inhalador")
+public void completa_el_nombre_del_paciente_el_diagnóstico_pediátrico_la_edad_y_el_tratamiento_inhalador(String string, Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("guarda la ficha")
+public void guarda_la_ficha() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("debe ver el mensaje de error Ficha registrada con éxito.")
+public void debe_ver_el_mensaje_de_error_ficha_registrada_con_éxito() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.junit.platform.engine.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:22)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
     <system-out><![CDATA[
-@login @ficha @reglas
+@reglas
+Scenario Outline: Regla para diagnóstico pediátrico e ingreso obligatorio de tratamiento                            &amp#27;[90m# features/reglas-clinicas.feature:11&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mque el doctor está en la página de la ficha clínica&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mcompleta el nombre del paciente "Francisca", el diagnóstico Pediátrico, la edad 10 y el tratamiento Inhalador&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mguarda la ficha&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mdebe ver el mensaje de error Ficha registrada con éxito.&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:16:09 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+ago 20, 2025 1:16:09 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Example #1.2" classname="Examples" time="2.393">
+    <system-out><![CDATA[
+@ficha
 Scenario Outline: Completar datos del paciente en ficha clínica                                   &amp#27;[90m# features/ficha-clinica.feature:15&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque el usuario ingresa a ficha clínica accediendo con usuario &amp#27;[0m&amp#27;[32m&amp#27;[1m"doctor"&amp#27;[0m&amp#27;[32m y clave &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.que_el_usuario_ingresa_a_ficha_clínica_accediendo_con_usuario_y_clave(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcompleta la ficha con &amp#27;[0m&amp#27;[32m&amp#27;[1mSofía E&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1mT.E.A.&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m y &amp#27;[0m&amp#27;[32m&amp#27;[1mTerapia psico&amp#27;[0m                                  &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.completa_la_ficha_con_paciente_diagnostico_edad_y_tratamiento(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
@@ -93,17 +149,73 @@ mensaje recibido: [Para menores de 12 años, el diagnóstico debe ser "Pediátri
     | [empty]                                                        |
     | [empty]                                                        |
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
-ago 15, 2025 8:20:03 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:15:28 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-ago 15, 2025 8:20:03 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ago 20, 2025 1:15:28 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.3" classname="Examples" time="7.754">
+  <testcase name="Example #1.2" classname="Examples" time="0.914">
+    <error message="The step &apos;que el doctor está en la página de la ficha clínica&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;que el doctor está en la página de la ficha clínica&quot;)&#10;public void que_el_doctor_está_en_la_página_de_la_ficha_clínica() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;completa el nombre del paciente {string}, el diagnóstico Pediátrico, la edad {int} y el tratamiento &quot;)&#10;public void completa_el_nombre_del_paciente_el_diagnóstico_pediátrico_la_edad_y_el_tratamiento(String string, Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;guarda la ficha&quot;)&#10;public void guarda_la_ficha() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;debe ver el mensaje de error El tratamiento es obligatorio para guardar la ficha.&quot;)&#10;public void debe_ver_el_mensaje_de_error_el_tratamiento_es_obligatorio_para_guardar_la_ficha() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'que el doctor está en la página de la ficha clínica' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("que el doctor está en la página de la ficha clínica")
+public void que_el_doctor_está_en_la_página_de_la_ficha_clínica() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("completa el nombre del paciente {string}, el diagnóstico Pediátrico, la edad {int} y el tratamiento ")
+public void completa_el_nombre_del_paciente_el_diagnóstico_pediátrico_la_edad_y_el_tratamiento(String string, Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("guarda la ficha")
+public void guarda_la_ficha() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("debe ver el mensaje de error El tratamiento es obligatorio para guardar la ficha.")
+public void debe_ver_el_mensaje_de_error_el_tratamiento_es_obligatorio_para_guardar_la_ficha() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.junit.platform.engine.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:22)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
     <system-out><![CDATA[
-@login @ficha @reglas
+@reglas
+Scenario Outline: Regla para diagnóstico pediátrico e ingreso obligatorio de tratamiento                   &amp#27;[90m# features/reglas-clinicas.feature:12&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mque el doctor está en la página de la ficha clínica&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mcompleta el nombre del paciente "Francisca", el diagnóstico Pediátrico, la edad 11 y el tratamiento &amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mguarda la ficha&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mdebe ver el mensaje de error El tratamiento es obligatorio para guardar la ficha.&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:16:10 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+ago 20, 2025 1:16:10 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Example #1.3" classname="Examples" time="7.392">
+    <system-out><![CDATA[
+@ficha
 Scenario Outline: Completar datos del paciente en ficha clínica                                   &amp#27;[90m# features/ficha-clinica.feature:16&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque el usuario ingresa a ficha clínica accediendo con usuario &amp#27;[0m&amp#27;[32m&amp#27;[1m"doctor"&amp#27;[0m&amp#27;[32m y clave &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.que_el_usuario_ingresa_a_ficha_clínica_accediendo_con_usuario_y_clave(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcompleta la ficha con &amp#27;[0m&amp#27;[32m&amp#27;[1mVíctor M&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1mPediátrico&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m11&amp#27;[0m&amp#27;[32m y &amp#27;[0m&amp#27;[32m&amp#27;[1mTerapia kine&amp#27;[0m                              &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.completa_la_ficha_con_paciente_diagnostico_edad_y_tratamiento(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
@@ -114,17 +226,73 @@ mensaje recibido: [Ficha registrada con éxito.]
     | [empty]                     |
     | [empty]                     |
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
-ago 15, 2025 8:20:06 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:15:31 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-ago 15, 2025 8:20:06 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ago 20, 2025 1:15:31 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.4" classname="Examples" time="7.593">
+  <testcase name="Example #1.3" classname="Examples" time="0.951">
+    <error message="The step &apos;que el doctor está en la página de la ficha clínica&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;que el doctor está en la página de la ficha clínica&quot;)&#10;public void que_el_doctor_está_en_la_página_de_la_ficha_clínica() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;completa el nombre del paciente {string}, el diagnóstico Bronquitis, la edad {int} y el tratamiento Antibióticos&quot;)&#10;public void completa_el_nombre_del_paciente_el_diagnóstico_bronquitis_la_edad_y_el_tratamiento_antibióticos(String string, Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;guarda la ficha&quot;)&#10;public void guarda_la_ficha() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;debe ver el mensaje de error Para menores de {int} años, el diagnóstico debe ser {string}.&quot;)&#10;public void debe_ver_el_mensaje_de_error_para_menores_de_años_el_diagnóstico_debe_ser(Integer int1, String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'que el doctor está en la página de la ficha clínica' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("que el doctor está en la página de la ficha clínica")
+public void que_el_doctor_está_en_la_página_de_la_ficha_clínica() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("completa el nombre del paciente {string}, el diagnóstico Bronquitis, la edad {int} y el tratamiento Antibióticos")
+public void completa_el_nombre_del_paciente_el_diagnóstico_bronquitis_la_edad_y_el_tratamiento_antibióticos(String string, Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("guarda la ficha")
+public void guarda_la_ficha() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("debe ver el mensaje de error Para menores de {int} años, el diagnóstico debe ser {string}.")
+public void debe_ver_el_mensaje_de_error_para_menores_de_años_el_diagnóstico_debe_ser(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.junit.platform.engine.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:22)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
     <system-out><![CDATA[
-@login @ficha @reglas
+@reglas
+Scenario Outline: Regla para diagnóstico pediátrico e ingreso obligatorio de tratamiento                              &amp#27;[90m# features/reglas-clinicas.feature:13&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mque el doctor está en la página de la ficha clínica&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mcompleta el nombre del paciente "Francisca", el diagnóstico Bronquitis, la edad 8 y el tratamiento Antibióticos&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mguarda la ficha&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mdebe ver el mensaje de error Para menores de 12 años, el diagnóstico debe ser "Pediátrico".&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:16:10 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+ago 20, 2025 1:16:10 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Example #1.4" classname="Examples" time="7.452">
+    <system-out><![CDATA[
+@ficha
 Scenario Outline: Completar datos del paciente en ficha clínica                                   &amp#27;[90m# features/ficha-clinica.feature:17&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque el usuario ingresa a ficha clínica accediendo con usuario &amp#27;[0m&amp#27;[32m&amp#27;[1m"doctor"&amp#27;[0m&amp#27;[32m y clave &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.que_el_usuario_ingresa_a_ficha_clínica_accediendo_con_usuario_y_clave(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcompleta la ficha con &amp#27;[0m&amp#27;[32m&amp#27;[1mFrancisca&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1mGripe&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m12&amp#27;[0m&amp#27;[32m y &amp#27;[0m&amp#27;[32m&amp#27;[1mNastizol&amp#27;[0m                                      &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.completa_la_ficha_con_paciente_diagnostico_edad_y_tratamiento(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
@@ -135,17 +303,17 @@ mensaje recibido: [Ficha registrada con éxito.]
     | [empty]                     |
     | [empty]                     |
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
-ago 15, 2025 8:20:14 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:15:38 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-ago 15, 2025 8:20:14 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ago 20, 2025 1:15:38 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.5" classname="Examples" time="2.448">
+  <testcase name="Example #1.5" classname="Examples" time="2.259">
     <system-out><![CDATA[
-@login @ficha @reglas
+@ficha
 Scenario Outline: Completar datos del paciente en ficha clínica                                   &amp#27;[90m# features/ficha-clinica.feature:18&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque el usuario ingresa a ficha clínica accediendo con usuario &amp#27;[0m&amp#27;[32m&amp#27;[1m"doctor"&amp#27;[0m&amp#27;[32m y clave &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.que_el_usuario_ingresa_a_ficha_clínica_accediendo_con_usuario_y_clave(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcompleta la ficha con &amp#27;[0m&amp#27;[32m&amp#27;[1mJuana S&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m39&amp#27;[0m&amp#27;[32m y &amp#27;[0m&amp#27;[32m&amp#27;[1mEjercicios&amp#27;[0m                                           &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.completa_la_ficha_con_paciente_diagnostico_edad_y_tratamiento(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
@@ -156,17 +324,17 @@ mensaje recibido: [Todos los campos son obligatorios.]
     | [empty]                            |
     | [empty]                            |
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
-ago 15, 2025 8:20:21 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:15:46 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-ago 15, 2025 8:20:21 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ago 20, 2025 1:15:46 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.6" classname="Examples" time="2.45">
+  <testcase name="Example #1.6" classname="Examples" time="2.36">
     <system-out><![CDATA[
-@login @ficha @reglas
+@ficha
 Scenario Outline: Completar datos del paciente en ficha clínica                                   &amp#27;[90m# features/ficha-clinica.feature:19&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque el usuario ingresa a ficha clínica accediendo con usuario &amp#27;[0m&amp#27;[32m&amp#27;[1m"doctor"&amp#27;[0m&amp#27;[32m y clave &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.que_el_usuario_ingresa_a_ficha_clínica_accediendo_con_usuario_y_clave(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcompleta la ficha con &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1mlumbago&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m21&amp#27;[0m&amp#27;[32m y &amp#27;[0m&amp#27;[32m&amp#27;[1mEjercicios&amp#27;[0m                                           &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.completa_la_ficha_con_paciente_diagnostico_edad_y_tratamiento(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
@@ -177,17 +345,17 @@ mensaje recibido: [Todos los campos son obligatorios.]
     | [empty]                            |
     | [empty]                            |
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
-ago 15, 2025 8:20:24 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:15:48 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-ago 15, 2025 8:20:24 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ago 20, 2025 1:15:48 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.7" classname="Examples" time="2.6">
+  <testcase name="Example #1.7" classname="Examples" time="2.269">
     <system-out><![CDATA[
-@login @ficha @reglas
+@ficha
 Scenario Outline: Completar datos del paciente en ficha clínica                                   &amp#27;[90m# features/ficha-clinica.feature:20&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque el usuario ingresa a ficha clínica accediendo con usuario &amp#27;[0m&amp#27;[32m&amp#27;[1m"doctor"&amp#27;[0m&amp#27;[32m y clave &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.que_el_usuario_ingresa_a_ficha_clínica_accediendo_con_usuario_y_clave(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcompleta la ficha con &amp#27;[0m&amp#27;[32m&amp#27;[1mLuisa M&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1mhipertensión&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m y &amp#27;[0m&amp#27;[32m&amp#27;[1mAntihipertensivos&amp#27;[0m                          &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.completa_la_ficha_con_paciente_diagnostico_edad_y_tratamiento(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
@@ -198,17 +366,17 @@ mensaje recibido: [Todos los campos son obligatorios.]
     | [empty]                            |
     | [empty]                            |
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
-ago 15, 2025 8:20:26 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:15:50 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-ago 15, 2025 8:20:26 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ago 20, 2025 1:15:50 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.8" classname="Examples" time="2.4">
+  <testcase name="Example #1.8" classname="Examples" time="2.373">
     <system-out><![CDATA[
-@login @ficha @reglas
+@ficha
 Scenario Outline: Completar datos del paciente en ficha clínica                                   &amp#27;[90m# features/ficha-clinica.feature:21&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque el usuario ingresa a ficha clínica accediendo con usuario &amp#27;[0m&amp#27;[32m&amp#27;[1m"doctor"&amp#27;[0m&amp#27;[32m y clave &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.que_el_usuario_ingresa_a_ficha_clínica_accediendo_con_usuario_y_clave(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcompleta la ficha con &amp#27;[0m&amp#27;[32m&amp#27;[1mJuan B&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1motitis&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m45&amp#27;[0m&amp#27;[32m y &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                                                &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.completa_la_ficha_con_paciente_diagnostico_edad_y_tratamiento(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
@@ -219,17 +387,17 @@ mensaje recibido: [Todos los campos son obligatorios., El tratamiento es obligat
     | El tratamiento es obligatorio para guardar la ficha. |
     | [empty]                                              |
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
-ago 15, 2025 8:20:29 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:15:53 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-ago 15, 2025 8:20:29 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ago 20, 2025 1:15:53 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.9" classname="Examples" time="2.532">
+  <testcase name="Example #1.9" classname="Examples" time="2.214">
     <system-out><![CDATA[
-@login @ficha @reglas
+@ficha
 Scenario Outline: Completar datos del paciente en ficha clínica                                   &amp#27;[90m# features/ficha-clinica.feature:22&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque el usuario ingresa a ficha clínica accediendo con usuario &amp#27;[0m&amp#27;[32m&amp#27;[1m"doctor"&amp#27;[0m&amp#27;[32m y clave &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.que_el_usuario_ingresa_a_ficha_clínica_accediendo_con_usuario_y_clave(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcompleta la ficha con &amp#27;[0m&amp#27;[32m&amp#27;[1mMiguel&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1motitis&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m y &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                                                &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.completa_la_ficha_con_paciente_diagnostico_edad_y_tratamiento(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
@@ -240,17 +408,17 @@ mensaje recibido: [Todos los campos son obligatorios., Para menores de 12 años,
     | Para menores de 12 años, el diagnóstico debe ser "Pediátrico". |
     | El tratamiento es obligatorio para guardar la ficha.           |
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
-ago 15, 2025 8:20:31 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:15:55 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-ago 15, 2025 8:20:31 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ago 20, 2025 1:15:55 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.10" classname="Examples" time="2.348">
+  <testcase name="Example #1.10" classname="Examples" time="2.302">
     <system-out><![CDATA[
-@login @ficha @reglas
+@ficha
 Scenario Outline: Completar datos del paciente en ficha clínica                                   &amp#27;[90m# features/ficha-clinica.feature:23&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque el usuario ingresa a ficha clínica accediendo con usuario &amp#27;[0m&amp#27;[32m&amp#27;[1m"doctor"&amp#27;[0m&amp#27;[32m y clave &amp#27;[0m&amp#27;[32m&amp#27;[1m"password"&amp#27;[0m &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.que_el_usuario_ingresa_a_ficha_clínica_accediendo_con_usuario_y_clave(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcompleta la ficha con &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m&amp#27;[32m y &amp#27;[0m&amp#27;[32m&amp#27;[1m&amp#27;[0m                                                              &amp#27;[90m# cl.kibernum.steps.FichaClinicaSteps.completa_la_ficha_con_paciente_diagnostico_edad_y_tratamiento(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
@@ -261,15 +429,15 @@ mensaje recibido: [Todos los campos son obligatorios., El tratamiento es obligat
     | El tratamiento es obligatorio para guardar la ficha. |
     | [empty]                                              |
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
-ago 15, 2025 8:20:34 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:15:57 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-ago 15, 2025 8:20:34 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ago 20, 2025 1:15:57 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Login exitoso" classname="Login de doctor" time="6.984">
+  <testcase name="Login exitoso" classname="Login de doctor" time="6.805">
     <system-out><![CDATA[
 @login
 Scenario: Login exitoso                            &amp#27;[90m# features/login-doctor.feature:3&amp#27;[0m
@@ -277,15 +445,15 @@ Scenario: Login exitoso                            &amp#27;[90m# features/login-
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mingresa credenciales válidas&amp#27;[0m                &amp#27;[90m# cl.kibernum.steps.LoginDoctorSteps.ingresa_credenciales_validas()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32maccede a la ficha clínica&amp#27;[0m                   &amp#27;[90m# cl.kibernum.steps.LoginDoctorSteps.accede_la_ficha_clinica()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
-ago 15, 2025 8:20:36 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:15:59 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-ago 15, 2025 8:20:36 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ago 20, 2025 1:15:59 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Login fallido" classname="Login de doctor" time="1.821">
+  <testcase name="Login fallido" classname="Login de doctor" time="2.403">
     <system-out><![CDATA[
 @login
 Scenario: Login fallido                            &amp#27;[90m# features/login-doctor.feature:8&amp#27;[0m
@@ -293,156 +461,63 @@ Scenario: Login fallido                            &amp#27;[90m# features/login-
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mingresa credenciales inválidas&amp#27;[0m              &amp#27;[90m# cl.kibernum.steps.LoginDoctorSteps.ingresa_credenciales_invalidas()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdebería ver el mensaje de error de login&amp#27;[0m    &amp#27;[90m# cl.kibernum.steps.LoginDoctorSteps.deberia_ver_el_mensaje_de_error_de_login()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
-ago 15, 2025 8:20:43 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:16:06 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-ago 15, 2025 8:20:43 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ago 20, 2025 1:16:06 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Validación de edad del paciente" classname="Validación ficha clínica" time="6.183">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#edad&quot;}&#10;  (Session info: chrome=139.0.7258.67)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [91cc9479300fea70f085e44e8bd6f21c, findElement {value=edad, using=id}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\andre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54046}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54046/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 91cc9479300fea70f085e44e8bd6f21c" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#edad"}
-  (Session info: chrome=139.0.7258.67)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [91cc9479300fea70f085e44e8bd6f21c, findElement {value=edad, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\andre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54046}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54046/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 91cc9479300fea70f085e44e8bd6f21c
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at cl.kibernum.pages.FichaClinicaPage.getAge(FichaClinicaPage.java:93)
-	at cl.kibernum.steps.ReglasClinicasSteps.el_paciente_es_menor_de_12_años(ReglasClinicasSteps.java:19)
-	at ✽.el paciente es menor de 12 años(classpath:features/reglas-clinicas.feature:4)
+  <testcase name="Múltiples escenarios de error pediátrico y tratamiento faltante" classname="Validación de las reglas clínicas para asegurar el correcto ingreso de datos" time="0.989">
+    <error message="The step &apos;el doctor está en la página de la ficha clínica&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;el doctor está en la página de la ficha clínica&quot;)&#10;public void el_doctor_está_en_la_página_de_la_ficha_clínica() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;completa el nombre del paciente {string}, el diagnóstico {string}\&quot;&quot;)&#10;public void completa_el_nombre_del_paciente_el_diagnóstico(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;guarda la ficha&quot;)&#10;public void guarda_la_ficha() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'el doctor está en la página de la ficha clínica' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("el doctor está en la página de la ficha clínica")
+public void el_doctor_está_en_la_página_de_la_ficha_clínica() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("completa el nombre del paciente {string}, el diagnóstico {string}\"")
+public void completa_el_nombre_del_paciente_el_diagnóstico(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("guarda la ficha")
+public void guarda_la_ficha() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.junit.platform.engine.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:22)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ]]></error>
     <system-out><![CDATA[
 @reglas
-Scenario: Validación de edad del paciente &amp#27;[90m# features/reglas-clinicas.feature:3&amp#27;[0m
-  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mel paciente es menor de &amp#27;[0m&amp#27;[31m&amp#27;[1m12&amp#27;[0m&amp#27;[31m años&amp#27;[0m    &amp#27;[90m# cl.kibernum.steps.ReglasClinicasSteps.el_paciente_es_menor_de_12_años(int)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#edad"}
-  (Session info: chrome=139.0.7258.67)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [91cc9479300fea70f085e44e8bd6f21c, findElement {value=edad, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\andre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54046}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54046/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 91cc9479300fea70f085e44e8bd6f21c
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at cl.kibernum.pages.FichaClinicaPage.getAge(FichaClinicaPage.java:93)
-	at cl.kibernum.steps.ReglasClinicasSteps.el_paciente_es_menor_de_12_años(ReglasClinicasSteps.java:19)
-	at ✽.el paciente es menor de 12 años(classpath:features/reglas-clinicas.feature:4)
-&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mdebe ser paciente &amp#27;[0m&amp#27;[36m&amp#27;[1m"Pediátrico"&amp#27;[0m     &amp#27;[90m# cl.kibernum.steps.ReglasClinicasSteps.debe_ser_paciente(java.lang.String)&amp#27;[0m
-
-    Embedding Validación de edad del paciente [image/png 6756 bytes]
-
+Scenario: Múltiples escenarios de error pediátrico y tratamiento faltante                                     &amp#27;[90m# features/reglas-clinicas.feature:17&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mel doctor está en la página de la ficha clínica&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mcompleta el nombre del paciente "Francisca", el diagnóstico "Pediátrico, la edad 10 y el tratamiento ""&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mguarda la ficha&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mdebe ver los siguientes mensajes de error:&amp#27;[0m                                                             &amp#27;[90m# cl.kibernum.steps.ReglasClinicasSteps.debeVerLosSiguientesMensajesDeError(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Para menores de 12 años, el diagnóstico debe ser "Pediátrico". |
+    | El tratamiento es obligatorio para guardar la ficha.           |
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
-ago 15, 2025 8:20:45 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+ago 20, 2025 1:16:11 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-ago 15, 2025 8:20:45 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="Validación ficha clínica" classname="Validación ficha clínica" time="6.176">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#tratamiento&quot;}&#10;  (Session info: chrome=139.0.7258.67)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [910d2c5a792f52d7731a7d197f13910d, findElement {value=tratamiento, using=id}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\andre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54065}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54065/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 910d2c5a792f52d7731a7d197f13910d" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#tratamiento"}
-  (Session info: chrome=139.0.7258.67)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [910d2c5a792f52d7731a7d197f13910d, findElement {value=tratamiento, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\andre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54065}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54065/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 910d2c5a792f52d7731a7d197f13910d
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at cl.kibernum.pages.FichaClinicaPage.enterTreatment(FichaClinicaPage.java:47)
-	at cl.kibernum.steps.ReglasClinicasSteps.no_se_completa_el_tratamiento(ReglasClinicasSteps.java:31)
-	at ✽.no se completa el tratamiento(classpath:features/reglas-clinicas.feature:8)
-]]></error>
-    <system-out><![CDATA[
-@reglas
-Scenario: Validación ficha clínica          &amp#27;[90m# features/reglas-clinicas.feature:7&amp#27;[0m
-  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mno se completa el tratamiento&amp#27;[0m        &amp#27;[90m# cl.kibernum.steps.ReglasClinicasSteps.no_se_completa_el_tratamiento()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#tratamiento"}
-  (Session info: chrome=139.0.7258.67)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [910d2c5a792f52d7731a7d197f13910d, findElement {value=tratamiento, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\andre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54065}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54065/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 910d2c5a792f52d7731a7d197f13910d
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at cl.kibernum.pages.FichaClinicaPage.enterTreatment(FichaClinicaPage.java:47)
-	at cl.kibernum.steps.ReglasClinicasSteps.no_se_completa_el_tratamiento(ReglasClinicasSteps.java:31)
-	at ✽.no se completa el tratamiento(classpath:features/reglas-clinicas.feature:8)
-&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mno se puede guardar la ficha clínica&amp#27;[0m &amp#27;[90m# cl.kibernum.steps.ReglasClinicasSteps.no_se_puede_guardar_la_ficha_clínica()&amp#27;[0m
-
-    Embedding Validación ficha clínica [image/png 6756 bytes]
-
-]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\andre\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
-ago 15, 2025 8:20:51 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 139
-ago 15, 2025 8:20:51 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ago 20, 2025 1:16:11 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
 </testsuite>

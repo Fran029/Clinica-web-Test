@@ -1,4 +1,4 @@
-@login @ficha @reglas
+@ficha 
 Feature: Validación de ficha médica 
 
     Scenario Outline: Completar datos del paciente en ficha clínica 
