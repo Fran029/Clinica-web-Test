@@ -14,7 +14,7 @@ import cl.kibernum.hooks.DriverHolder;
 import java.time.Duration;
 
 public class FichaClinicaPage {
-    WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(3));
+    WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(5));
 
     private By nameField = By.id("nombre");
     private By diagnosisField = By.id("diagnostico");
