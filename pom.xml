@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>cl.kibernum</groupId>
-  <artifactId>bdd-practica-login</artifactId>
+  <artifactId>clinica-web-test</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>bdd-practica-login</name>
+  <name>clinica-web-test</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
